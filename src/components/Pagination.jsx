@@ -7,6 +7,9 @@ const Pagination = ({ total, limit, skip, onPageChange }) => {
   const handlePageClick = (page) => {
     const newSkip = (page - 1) * limit;
     onPageChange(newSkip);
+    // Scroll ke atas daftar resep (ID "recipes-list")
+    const recipesSection = document.getElementById("recipes-list");
+    recipesSection?.scrollIntoView({ behavior: "smooth" });
   };
 
   return (

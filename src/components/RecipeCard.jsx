@@ -15,9 +15,7 @@ const RecipeCard = ({ recipe }) => {
         <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-30"></div>
       </div>
       <div className="p-4">
-        <h3 className="text-2xl font-semibold text-gray-800 mb-2">
-          {recipe.name}
-        </h3>
+        <h3 className="text-2xl font-semibold text-gray-800 mb-2">{recipe.name}</h3>
         <p className="text-sm text-gray-500 mb-2">
           {recipe.cuisine} • {recipe.difficulty}
         </p>

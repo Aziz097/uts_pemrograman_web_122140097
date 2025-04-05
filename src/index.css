@@ -2,7 +2,7 @@
 
 @import "tailwindcss";
 
-/* Atur font global dan background */
+/* Set global font dan background */
 body {
   font-family: 'Poppins', sans-serif;
   background-color: #F9FAFB;
