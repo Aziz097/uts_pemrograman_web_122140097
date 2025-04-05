@@ -1,11 +1,11 @@
-import { FaReact, FaNodeJs, FaCss3Alt, FaGithub } from 'react-icons/fa';
+import { FaReact, FaGithub } from 'react-icons/fa';
 import { RiTailwindCssFill } from "react-icons/ri";
 import { SiVite } from "react-icons/si";
 
 const About = () => {
   return (
     <div className="container mx-auto px-4 py-16 max-w-3xl">
-      {/* Header dengan logo dan judul */}
+
       <div className="flex items-center mb-8">
         <img
           src="/Chef Curry.png"
@@ -14,14 +14,12 @@ const About = () => {
         />
         <h1 className="text-5xl font-bold">Chef Curry Recipes</h1>
       </div>
-      
-      {/* Deskripsi aplikasi */}
+
       <p className="text-xl mb-6">
         Aplikasi Chef Curry Recipes ini dikembangkan sebagai bagian dari Ujian Tengah Semester praktikum Web Development Menggunakan React. 
         Aplikasi ini mengimplementasikan berbagai konsep fundamental seperti komponen fungsional, penggunaan hooks, state management, dan routing dengan React Router.
       </p>
-      
-      {/* Info teknis dengan ikon */}
+
       <div className="grid grid-cols-2 gap-6 mt-10">
         <div className="flex items-center space-x-3">
           <FaReact size={40} className="text-blue-500" />
@@ -52,8 +50,7 @@ const About = () => {
           </div>
         </div>
       </div>
-      
-      {/* Informasi penilaian */}
+
       <div className="mb-8">
         <h2 className="text-2xl font-bold mt-20 mb-4">Aplikasi ini dikembangkan untuk memenuhi komponen penilaian UTS, meliputi:</h2>
         <ul className="list-disc list-inside text-xl text-gray-700">
@@ -65,7 +62,6 @@ const About = () => {
         </ul>
       </div>
       
-      {/* Footer mini di halaman About */}
       <div className="border-t pt-6">
         <p className="text-lg text-gray-600">
           Aziz Kurniawan - Teknik Informatika, ITERA.
